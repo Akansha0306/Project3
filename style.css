@@ -1,0 +1,895 @@
+.container{
+    max-width: 1440px;
+    margin: 0;
+    background-color: #f4f6f8;
+}
+.head{
+    padding: 0;
+}
+.logo {
+        margin: 15px 20px 33px 16px;
+        padding: 8px 15px 22px 0;
+      }
+.header img{
+      width: 23px;
+      height: 19px;
+      margin: 1px 15px 0 0;
+      object-fit: contain;
+      }
+.Dashboard {
+        width: 73px;
+        height: 19px;
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        color: #505050;
+      }
+.Collection {
+    width: 69px;
+    height: 19px;
+    margin: 0 0 0 5px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+  }
+.header a, .dropdown-btn {
+    padding: 6px 8px 10px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  .header .dropdown-container {
+  margin: 8px 0 23px;
+  box-shadow: inset 2px 0 5px 2px rgba(0, 0, 0, 0.12);
+  background-color: #e3e3e3;
+  width: auto;
+  }
+  .user-profile{
+    padding: 0;
+  }
+  .Batch {
+    width: 38px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  .Accounts {
+    width: 65px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #000;
+  }
+  .Daily-Report {
+    width: 80px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  .Pre-Litigation {
+    width: 91px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  .Legal-Notices {
+    width: 87px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  .FIR {
+    width: 20px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  .Litigation {
+    width: 61px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  hr {
+    width: 130px;
+    height: 1px;
+    margin: 32px 0 0 48px;
+    border: solid 1px #ddd;
+  }
+  .social {
+    padding-left: 0 ;
+}
+  .social-media a {
+    padding: 8px;
+}
+  .Communication {
+    width: 105px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  .Super-Admin {
+    width: 90px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  .Users-Roles {
+    width: 90px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  .Account {
+    width: 53px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  .Invoices {
+    width: 53px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+  }
+
+.navbar.navbar-inverse {
+    padding: 0;
+    border: 0;
+}
+.navbar-right{
+    display: -webkit-inline-box;
+}
+.navbar-right li{
+    padding: 15px;
+    font-size: 20px;
+}
+.navbar-right li a{
+    color: #000;
+}
+.navbar-header span{
+    width: 109px;
+    height: 17px;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #727272 ;
+}
+ a.navbar-brand {  
+  font-family: OpenSans;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  color: #505050 !important;
+}
+.profile {
+    margin: 13px 0 0;
+    padding: 24px 24px 30px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+#check {
+    width: 18px;
+    height: 18px;
+    border-radius: 2.9px;
+    border: solid 2px #e1e1ed;
+    display: inline-block;
+}  
+.profile input#filter {
+    width: 18px;
+    height: 18px;
+}
+.profile i.bi.bi-sliders2-vertical {
+    padding: 5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.profile .bi.bi-arrow-down-up {
+    padding: 5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.profile a.btn {  
+    margin: 0 0 0 10px;
+    padding: 12px 21px 12px 16px;
+    border-radius: 4px;
+    border: solid 1px #ddd;
+    background-color: #f4f6f8;
+}
+.profile hr{
+        width: 205px;
+        height: 1px;
+        margin: 16px 42px 15px 15px;
+        border: solid 1px #ddd;
+      }
+.line{
+margin: 30px 0 50px 0;
+border: solid 1px #ddd;
+}
+.Rituraj{
+        margin: 0 0 8px 15px;
+        font-family: OpenSans;
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #0a7aff; 
+}
+.Batch-No---5 {
+    margin: 8px 0px 16px 23px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  
+  .Batch-No---5 .text-style-1 {
+    color: #000;
+  }
+  .Product-Tractor-Rs {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #000;
+    padding-left: 23px;
+  }
+  .Product-Tractor-Rs p{
+    padding-left: 23px;
+    margin: 0;
+  }
+  .Product-Tractor-Rs .text-style-1 {
+    color: #505050;
+  }
+  .Last-Disposition {
+    margin: 0 85px 2px 0;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  .Broken-Promise-To-Pa {
+    margin: 2px 0 0 1px;
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    color: #000;
+  }
+  .profile table, th, td{
+    border: 1px solid #dddddd;
+    
+  }
+ .profile th{
+    padding: 8px 10px 7px 16px;
+    border: solid 1px #ddd;
+    background-color: #f5f5f5;
+  } 
+  .profile tr td{
+    margin: 13px 0 0;
+    border-radius: 8px;
+    background-color: #fff;
+  } 
+  .search-batch td{
+    border: none;
+    padding: 5px;
+  }
+  .popup-radio{
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+  }
+  .Assigned-Date {
+    padding: 20px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  
+  .Current-Status---Hig {
+    margin: 15px 0 0 23px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  
+  .Current-Status---Hig .text-style-1 {
+    font-weight: 600;
+    color: #e02020;
+  }
+  .Current-Status---Hig .text-style-2{
+    color: #fa6400;
+    font-weight: 600;
+  }
+  .Current-Status---Hig .text-style-3{
+  color:#2d9308;
+  font-weight: 600;
+  }
+  .dropdown{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .dropdown-select{
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #009ec0;
+    padding: 10px 7px 12px;
+    border-radius: 4px;
+    float: right;
+    width: auto;
+  }
+
+  option.option-btn {
+  background-color: #fff;
+  color: #000;
+  width: 283px;
+  height: 137px;
+  margin: 8px 0 0;
+  padding: 16px 0 10px 7px;
+  border-radius: 4px;
+  border: solid 2px #009ec0;
+}
+  .social{
+    padding-left: 50px;
+    align-content: center;
+  }
+.dropdown-toggle{
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  background-color: #009ec0;
+  padding: 13px 16px 12px;
+  border-radius: 4px;
+}
+.dropdown-toggle:hover{
+    background-color:#009ec0;
+    border: none;
+    transition: none;
+}
+
+.View-History {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #505050;
+    margin-bottom: 20px;
+  }
+  .Call {
+    margin: 5px 1px 0;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #505050;
+    text-decoration: none;
+  }
+  .social-media{
+    display: flex;
+  }
+  .social .Action{
+    justify-content: left;
+    margin: 8px 0 10px;
+    padding: 17px 12.2px 17px 16px;
+    border-radius: 4px;
+    width: 100%;
+    text-align: left;
+    border: 0;
+    background-color: #f4f6f8;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.57;
+    letter-spacing: normal;
+    color: #505050;
+  }
+  .Action.dropdown-toggle::after{
+    float: inline-end;
+  }
+
+  .filter-popup{ 
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    padding: 25px 387px 25px 24px;
+    background-color: #f4f6f8;
+    margin-bottom: 10px;
+}
+    .popup {
+      display: none;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%); 
+    border-radius: 8px;
+    box-shadow: 0 0 22px 10px rgba(0, 0, 0, 0.12);
+    border: solid 1px #ddd;
+    background-color: #fff;
+     
+    }
+
+.search input[type=text] {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    color: #999;
+    border: none;
+  }
+
+  .Search-by-Batch-Numb {
+    font-family: Roboto;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 3.5em;
+      color: #505050;
+  }
+  .Product-Portfolio {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    color: #505050;
+  }
+.search-batch{
+  padding: 8px 10px 20px;
+  background-color: #f4f6f8;
+}
+.text-batch{
+  padding: 10px;
+  width: 105px;
+  border-radius: 8px;
+  border: solid 1px #ddd;
+  background-color: #fff;
+  float: inline-end;
+  margin-left: 8px;
+}
+.Overdue-Bucket {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  color: #505050;
+}
+.Last-Disposition {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  color: #505050;
+  margin: 0;
+}
+.search {
+  padding: 14px 200px 14px 16px;
+  border-radius: 24px;
+  box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border: solid 1px #ddd;
+  background-color: #fff;
+  margin: 0 20px 10px;
+}
+.account-range table td {
+  border: none;
+  padding: 5px;
+}
+.filter-popup select{
+  width: 238px;
+  margin: 0 0 0 66px;
+  padding: 7px 16px 7px 16px;
+  border-radius: 4px;
+  border: solid 1px #ddd;
+  background-color: #fff;
+}
+.Loan-Account-Range {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  color: #505050;
+  margin-right: 18px;
+}
+.Status {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  margin-right: 18px;
+  color: #505050;
+}
+.account-range{
+  margin: 0;
+  padding: 8px 10px 10px;
+  float: inline-end;
+  background-color: #fff;
+}
+
+.Date-Between {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  margin-right: 40px;
+  color: #505050;
+}
+.popup-box select {
+  width: 238px;
+  /* height: 41px; */
+  margin: 0 0 0 66px;
+  padding: 12px 16.2px 13px 16px;
+  border-radius: 4px;
+  border: solid 1px #ddd;
+  background-color: #fff;
+}
+.show-popup {
+  display: block;
+}
+.close-btn {
+    width: 93px;
+    height: 33px;
+    border-radius: 4px;
+    border: solid 1px #ddd;
+    background-color: #f1f1f1;
+  margin-right: 12px;
+}
+.apply-btn{
+    width: 93px;
+    height: 33px;
+    border-radius: 4px;
+    background-color: #009ec0;
+    border: none;
+    color: #fff;
+}
+.tablinks {
+  background-color: transparent;
+  border: none;
+  padding: 0 40px 20px;
+  width: 100%;
+}
+.tablinks a{
+font-family: OpenSans;
+text-decoration: none;
+font-size: 14px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #0a7aff;
+}
+button.tablinks img {
+padding: 10px;
+}
+.tabselect{
+width: 313px;
+  height: 44px;
+  margin: 0px 0px 16px 0px;
+  border-radius: 4px;
+  border: solid 1px #ddd;
+  background-color: #f4f6f8;
+}
+.tabcom.show-popup {
+  display: block !important;
+}
+
+.tabcom {
+  width: 571px;
+  height: auto;
+  padding: 0 0 7px;
+  border-radius: 8px;
+  box-shadow: 0 0 22px 10px rgba(0, 0, 0, 0.12);
+  border: solid 1px #ddd;
+  background-color: #fff;
+   display: none;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tab {
+  width: auto;
+  height: auto;
+  margin: -10px 32px 1px 0;
+  padding: 20px 0px 0 0;
+  display: grid;
+  float: left;
+  background-color: #f4f6f8;
+}
+.tabcontent option{
+background-color: #fff;
+padding-bottom: 20px;
+} 
+.tab button.active {
+  padding: 14px 65px 14px 0px;
+  background-color: #fff;
+  width: 100%;
+} 
+.legal-button{
+  margin: 0;
+  padding: 8px 10px 10px;
+  background-color: #fff;
+}
+.Legal-popup{
+  width: 249px;
+  height: 382px;
+  padding: 0 0 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 22px 10px rgba(0, 0, 0, 0.12);
+  border: solid 1px #ddd;
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.Legal-popup.show-popup{
+  display: block;
+}
+.legal-button table td {
+  border: none;
+  padding: 5px;
+}
+.legal-pop{ 
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+  padding: 25px 35px 25px 24px;
+  background-color: #f4f6f8;
+  margin-bottom: 10px;
+}
+.notice {
+  padding: 15px;    
+}
+.call-popup{
+    width: 345px;
+    height: 1024px;
+    padding: 20px;
+    box-shadow: 0 2px 11px 7px rgba(0, 0, 0, 0.21);
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  border-radius: 8px;
+  box-shadow: 0 0 22px 10px rgba(0, 0, 0, 0.12);
+  border: solid 1px #ddd;
+  }
+.call-heading{
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  color: #000;
+}
+.date{
+  display: flex;
+  padding-bottom: 30px;
+}
+.date span{
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    color: #505050;
+    padding-top: 20px;
+}
+.rec-no{
+  float: right;
+}
+.recording-1{
+  padding-bottom: 20px;
+}
+.recording-1 span{
+  font-family: OpenSans;
+  font-size: 12px;
+  color: #676c70;
+}
+/* @media (min-width: 768px){
+  .header img{
+    margin: 0;
+  }
+  .dropdown-select{
+    font-size: 15px;
+  }
+   .navbar.navbar-inverse{
+    padding: 8px 0px 0 30px;
+  }
+  .user-profile{
+    width: 80%;
+  }
+  .head {
+   width:20% ;
+}
+.profile a.btn{
+  padding: 5px;
+  font-size: 15px;
+ }
+
+ .dropdown-select{
+  margin: 0 !important;
+ }
+}
+ @media (min-width: 320px){
+ .user-detail{
+  padding-bottom: 20px;
+ }
+ .table-user{
+  padding-bottom: 20px;
+ }
+.head {
+  padding: 0 0 20px 0;
+}
+.navbar.navbar-inverse{
+  padding: 0 20px;
+}
+.profile a.btn{
+  padding: 5px;
+}
+
+.social{
+  padding-left: 20px;
+}
+.Call {
+  width: auto;
+  margin: 10px 0px 0;
+ }
+ } */
